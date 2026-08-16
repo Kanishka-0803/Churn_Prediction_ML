@@ -68,7 +68,7 @@ Decision Tree and Random Forest achieved perfect training scores but showed clea
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Language:** Python
 - **Libraries:** pandas, NumPy, scikit-learn, Matplotlib, Seaborn
