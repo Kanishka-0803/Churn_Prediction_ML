@@ -1,10 +1,10 @@
-# 🏦 Customer Churn Prediction Using Machine Learning
+# Customer Churn Prediction Using Machine Learning
 
 Predicting customer attrition in banking using demographic, transactional, and account activity data — enabling proactive retention strategies before customers leave.
 
 ---
 
-## 📌 Business Context
+## Business Context
 
 Customer attrition leads to direct revenue loss and high replacement costs in banking. Retaining an existing customer is significantly cheaper than acquiring a new one, making early churn detection a high-value business problem.
 
@@ -12,7 +12,7 @@ Customer attrition leads to direct revenue loss and high replacement costs in ba
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 | Detail | Value |
 |---|---|
@@ -25,7 +25,7 @@ Features span customer demographics (age, gender, income category, education), a
 
 ---
 
-## 🔄 Project Workflow
+## Project Workflow
 
 1. **Data Collection** — 10,127 records across banking operations.
 2. **Exploratory Data Analysis (EDA)** — Analyzed feature distributions, category breakdowns (e.g. Blue Card dominance, income categories), and correlation with churn.
@@ -36,7 +36,7 @@ Features span customer demographics (age, gender, income category, education), a
 
 ---
 
-## 🤖 Models & Results
+## Models & Results
 
 Test set performance across the three trained classifiers:
 
@@ -46,13 +46,13 @@ Test set performance across the three trained classifiers:
 | Random Forest | 1.00 | 0.96 | 0.92 | 0.80 | 0.85 |
 | **Gradient Boosting** | 0.98 | **0.96** | **0.93** | **0.81** | **0.86** |
 
-### ✅ Final Model: Gradient Boosting
+### Final Model: Gradient Boosting
 
 Decision Tree and Random Forest achieved perfect training scores but showed clear signs of **overfitting**, with performance dropping notably on unseen data. **Gradient Boosting** provided the best balance between training and test performance, generalizing better than the other two models. It was selected as the final model based on its superior precision, recall, and F1-score on the test set.
 
 ---
 
-## 💡 Key Churn Signals Identified (EDA)
+## Key Churn Signals Identified (EDA)
 
 - Low transaction spend and transaction count
 - Extended periods of account inactivity
@@ -60,7 +60,7 @@ Decision Tree and Random Forest achieved perfect training scores but showed clea
 
 ---
 
-## 🎯 Business Impact
+## Business Impact
 
 - **Early identification** of at-risk customer profiles
 - **Tailored retention incentives** and fee adjustments for flagged customers
