@@ -1,6 +1,3 @@
-Here's the raw markdown source — copy everything in the box below and paste directly into your `README.md` file on GitHub:
-
-```markdown
 # 🏦 Customer Churn Prediction Using Machine Learning
 
 Predicting customer attrition in banking using demographic, transactional, and account activity data — enabling proactive retention strategies before customers leave.
